@@ -7,6 +7,7 @@ import ComponentA from '../container/ComponentA';
 import ComponentB from '../container/ComponentB';
 import ImagesPicker from '../container/ImagesPicker';
 import ImagesResize from '../container/ImagesResize';
+import TestAxios from '../container/TestAxios';
 
 const RootStack = createStackNavigator(
   {
@@ -14,6 +15,7 @@ const RootStack = createStackNavigator(
     ManhinhB: ComponentB,
     ManhinhC: ImagesPicker,
     ManhinhD: ImagesResize,
+    ManhinhE: TestAxios,
   },
   {
     initialRouteName: 'ManhinhA',

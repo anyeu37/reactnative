@@ -7,17 +7,24 @@ export default class ComponentA extends React.PureComponent {
       <View style={styles.container}>
         <Text style={styles.TextA}>componentA</Text>
         <TouchableOpacity
-          style={{marginHorizontal: 20}}
+          style={styles.btn}
           onPress={() => this.props.navigation.navigate('ManhinhB')}>
           <Text>goto componentB</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          style={styles.btn}
           onPress={() => this.props.navigation.navigate('ManhinhC')}>
           <Text>goto ImagesPicker</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          style={styles.btn}
           onPress={() => this.props.navigation.navigate('ManhinhD')}>
           <Text>goto ImagesResize</Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={styles.btn}
+          onPress={() => this.props.navigation.navigate('ManhinhE')}>
+          <Text>goto Test Axios</Text>
         </TouchableOpacity>
       </View>
     );
@@ -35,5 +42,13 @@ const styles = StyleSheet.create({
     marginBottom: 30,
     fontSize: 30,
     fontWeight: 'bold',
+  },
+  btn: {
+    backgroundColor: '#ececec',
+    paddingHorizontal: 10,
+    paddingVertical: 10,
+    marginVertical: 10,
+    minWidth: 200,
+    borderRadius: 5,
   },
 });

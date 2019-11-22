@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "eget tincidunt eget tempus vel"
+    },
+    {
+      "id": 2,
+      "name": "morbi sem mauris laoreet ut"
+    },
+    {
+      "id": 3,
+      "name": "mattis nibh ligula nec sem"
+    },
+    {
+      "id": 4,
+      "name": "adipiscing elit proin"
+    },
+    {
+      "id": 5,
+      "name": "aliquam lacus morbi"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "images": "http://dummyimage.com/200x300.png/cc0000/ffffff",
+      "name": "egestas metus",
+      "price": 270,
+      "category": 1
+    },
+    {
+      "id": 2,
+      "images": "http://dummyimage.com/200x300.png/cc0000/ffffff",
+      "name": "nisi nam",
+      "price": 121,
+      "category": 2
+    },
+    {
+      "id": 3,
+      "images": "http://dummyimage.com/200x300.jpg/5fa2dd/ffffff",
+      "name": "et ultrices",
+      "price": 234,
+      "category": 3
+    },
+    {
+      "id": 4,
+      "images": "http://dummyimage.com/200x300.jpg/5fa2dd/ffffff",
+      "name": "nisi eu",
+      "price": 256,
+      "category": 4
+    },
+    {
+      "id": 5,
+      "images": "http://dummyimage.com/200x300.png/5fa2dd/ffffff",
+      "name": "lobortis sapien",
+      "price": 102,
+      "category": 5
+    },
+    {
+      "id": 6,
+      "images": "http://dummyimage.com/200x300.bmp/5fa2dd/ffffff",
+      "name": "arcu sed",
+      "price": 135,
+      "category": 6
+    },
+    {
+      "id": 7,
+      "images": "http://dummyimage.com/200x300.jpg/ff4444/ffffff",
+      "name": "sollicitudin ut",
+      "price": 228,
+      "category": 7
+    },
+    {
+      "id": 8,
+      "images": "http://dummyimage.com/200x300.jpg/5fa2dd/ffffff",
+      "name": "consectetuer adipiscing",
+      "price": 294,
+      "category": 8
+    },
+    {
+      "id": 9,
+      "images": "http://dummyimage.com/200x300.bmp/dddddd/000000",
+      "name": "tempus sit",
+      "price": 272,
+      "category": 9
+    },
+    {
+      "id": 10,
+      "images": "http://dummyimage.com/200x300.png/dddddd/000000",
+      "name": "convallis nulla",
+      "price": 142,
+      "category": 10
+    }
+  ]
+}
